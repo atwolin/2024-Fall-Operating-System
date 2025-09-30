@@ -1,0 +1,171 @@
+# ================================
+# IDE and Editor Files
+# ================================
+.vscode/*
+!.vscode/c_cpp_properties.json
+!.vscode/settings.json
+
+# ================================
+# Operating System Files
+# ================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ================================
+# Compiled Object Files and Executables
+# ================================
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dSYM
+
+# ================================
+# NachOS Specific Files
+# ================================
+# Root files
+DISK_0
+
+# Build directories (keep only Makefiles)
+**/build.cygwin/*
+!**/build.cygwin/Makefile
+!**/build.cygwin/Makefile.dep
+
+**/build.linux/*
+!**/build.linux/Makefile
+!**/build.linux/Makefile.dep
+
+**/build.macosx/*
+!**/build.macosx/Makefile
+!**/build.macosx/Makefile.dep
+
+# NachOS directories (keep only source files)
+**/filesys/*
+!**/filesys/*.cc
+!**/filesys/*.h
+
+**/lib/*
+!**/lib/*.cc
+!**/lib/*.h
+
+**/machine/*
+!**/machine/*.cc
+!**/machine/*.h
+
+**/network/*
+!**/network/*.cc
+!**/network/*.h
+
+# Test directories (keep specific files)
+**/test/*
+!**/test/Makefile
+!**/test/Makefile.dep
+!**/test/*.S
+!**/test/*.c
+!**/test/*.h
+!**/test/script
+!**/test/build_nachos.sh
+!**/test/build_nachos_docker.sh
+
+# Keep homework specific test files
+!**/test/hw3_all.sh
+!**/test/hw3_partA.sh
+!**/test/hw3_ans
+
+!**/test/hw4_all.sh
+!**/test/hw4_partII_a.sh
+!**/test/hw4_partII_b.sh
+!**/test/hw4_partIII.sh
+!**/test/hw4_ans
+!**/test/num_100.txt
+!**/test/num_1000.txt
+
+# Threads directory (keep source files)
+**/threads/*
+!**/threads/*.S
+!**/threads/*.cc
+!**/threads/*.h
+
+# User programs directory (keep source files)
+**/userprog/*
+!**/userprog/*.S
+!**/userprog/*.cc
+!**/userprog/*.h
+
+# Other NachOS directories to ignore
+**/usr/
+**/c++example/
+
+# ================================
+# Pthread Project Files
+# ================================
+# Executable files
+**/main
+**/writer_test
+**/reader_test
+**/producer_test
+**/consumer_test
+**/ts_queue_test
+
+# Test output files
+**/tests/*.out
+
+# ================================
+# General Development Files
+# ================================
+# JSON files (except specific ones)
+*.json
+!package.json
+!tsconfig.json
+
+# Temporary files
+*~
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# ================================
+# Language Specific
+# ================================
+# C/C++
+*.gch
+*.pch
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# ================================
+# Documentation
+# ================================
+# Keep PDF reports and specifications
+!**/*.pdf
+
+# Generated documentation
+doc/
+docs/html/
+docs/latex/
