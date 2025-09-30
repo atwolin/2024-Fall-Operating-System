@@ -1,0 +1,6 @@
+reader_size: 200
+worker_size: 400
+writer_size: 4000
+low: 20
+high: 80
+check_period: 1000000

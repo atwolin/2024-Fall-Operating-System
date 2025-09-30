@@ -1,0 +1,10 @@
+reader_size: 200
+worker_size: 100
+writer_size: 4000
+low: 20
+high: 80
+check_period: 1000000
+Scaling up consumers from 0 to 1
+Scaling up consumers from 1 to 2
+Scaling up consumers from 2 to 3
+execution time: 4.78903 seconds
